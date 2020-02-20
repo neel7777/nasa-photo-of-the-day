@@ -12,7 +12,7 @@ const SpaceImage = styled.img`
 `;
 const Info = styled.div `
 color: white;
-background-color: darkgreen;
+background-color: darkblue;
 `
 
 const Details = props => {
