@@ -1,7 +1,14 @@
 import React from "react";
 
-import "./App.css";
+import styled from "styled-components";
 
+
+import "./App.css";
+const HeaderBadge = styled.h1 `
+font-size: 40px;
+color: orange;
+
+`
 const Header = () => {
     return (
     <div className = "headerCont">
@@ -9,7 +16,7 @@ const Header = () => {
         
          </div>
          <div>
-             <h1>Nasa Photo of the Day!</h1>
+         <HeaderBadge >Nasa Photo of the Day!</HeaderBadge>
          </div>
 
     </div>
